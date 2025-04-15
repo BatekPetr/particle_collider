@@ -20,11 +20,11 @@ def main():
 	# Create the particles using the Particle class.
 	particles = []
 	color = [(79, 187, 224), (255, 255, 255), (255, 111, 81)]
-	for i in range(0, 3):
+	for i in range(0, 500):
 		pos = (randint(50, 400), randint(50, 400))
 		speed = randint(4, 6)
-		radius = 30
-		particles.append(Particle(pos, (1, 1), speed, radius, color[i]))
+		radius = 5
+		particles.append(Particle(pos, (1, 1), speed, radius, color[i%3]))
 
 	while True:
 		for event in pygame.event.get():
