@@ -20,7 +20,7 @@ def main():
 	# Create the particles using the Particle class.
 	particles = []
 	color = [(79, 187, 224), (255, 255, 255), (255, 111, 81)]
-	for i in range(0, 500):
+	for i in range(0, 1000):
 		pos = (randint(50, 400), randint(50, 400))
 		speed = randint(4, 6)
 		radius = 5
