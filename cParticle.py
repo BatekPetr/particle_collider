@@ -1,5 +1,4 @@
 # The Particle class which supports the particle collider program.
-
 from functions_geometric import euclidean_distance
 
 class Particle:
